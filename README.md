@@ -30,7 +30,7 @@ menu✅
 🔥 Click the button below to fork this repo. Don't forget to ⭐ star this repository if you find it useful!
 
 <p align="center">
-  <a href="https://github.com/DEVELOPER-BERA/CLOUD-AI/fork" target="_blank">
+  <a href="https://github.com/Devspacetechnologies/Destiny-xmd/fork" target="_blank">
     <img alt="Fork Repo" src="https://img.shields.io/badge/FORK REPO-🔥 CLICK HERE 🔥-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=black"/>
   </a>
 </p>
