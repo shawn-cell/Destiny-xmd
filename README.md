@@ -74,7 +74,7 @@ menu✅
 🚀 Stay updated with the latest news, updates, and features:
 
 <p align="center">
-  <a href="Follow the BOT NATION🤖 channel on WhatsApp:"https://whatsapp.com/channel/0029VaeJP3o8V0tjs3KJDt1R " target="_blank">
+  <a href="https://whatsapp.com/channel/0029VaeJP3o8V0tjs3KJDt1R " target="_blank">
     <img alt="WhatsApp Channel" src="https://img.shields.io/badge/WHATSAPP CHANNEL-🔔 JOIN NOW 🔔-teal?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=black"/>
   </a>
 </p>
