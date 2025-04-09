@@ -19,10 +19,10 @@ const update = async (m, Matrix) => {
         : "";
 
     if (cmd === "update") {
-        // Only allow the bot itself to use this command
+        // Only allow destiny xmd itself to use this command
         const botNumber = await Matrix.decodeJid(Matrix.user.id);
         if (m.sender !== botNumber) {
-            return Matrix.sendMessage(m.from, { text: "❌ *Only the bot itself can use this command!*" }, { quoted: m });
+            return Matrix.sendMessage(m.from, { text: "❌ *Only destiny xmd itself can use this command!*" }, { quoted: m });
         }
 
         await m.React("⏳");
@@ -52,7 +52,7 @@ const update = async (m, Matrix) => {
 
             if (latestCommitHash === currentHash) {
                 await m.React("✅");
-                return editMessage("```✅ Bot is already up to date!```");
+                return editMessage("```✅ destiny xmdis already up to date!```");
             }
 
             await editMessage("```🚀 New update found! Downloading...```");
