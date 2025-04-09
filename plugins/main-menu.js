@@ -212,18 +212,18 @@ const menu = async (m, Matrix) => {
 
     // Check if MENU_IMAGE exists in config and is not empty
     let menuImage;
-    if (config.MENU_IMAGE && config.MENU_IMAGE.trim() !== '') {
+    if (config.MENU_IMAGE && config.MENU_IMAGE.trim() !== 'https://files.catbox.moe/a25ykr.jpg') {
       try {
         // Try to fetch the image from URL
         const response = await axios.get(config.MENU_IMAGE, { responseType: 'arraybuffer' });
         menuImage = Buffer.from(response.data, 'binary');
       } catch (error) {
         console.error('Error fetching menu image from URL, falling back to local image:', error);
-        menuImage = fs.readFileSync('./media/khan.jpg');
+        menuImage = fs.readFileSync('https://files.catbox.moe/a25ykr.jpg');
       }
     } else {
       // Use local image if MENU_IMAGE is not configured
-      menuImage = fs.readFileSync('./media/khan.jpg');
+      menuImage = fs.readFileSync('https://files.catbox.moe/a25ykr.jpg');
     }
 
     await Matrix.sendMessage(m.from, {
@@ -235,7 +235,7 @@ const menu = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363398040175935@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterName: "MARKDEVS",
           serverMessageId: 143
         }
       }
