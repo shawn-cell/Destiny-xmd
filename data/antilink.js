@@ -19,7 +19,7 @@ export const handleAntilink = async (m, sock, logger, isBotAdmins, isAdmins, isC
         }
 
         if (!isBotAdmins) {
-            await sock.sendMessage(m.from, { text: 'The bot needs to be an admin to manage the antilink feature.' }, { quoted: m });
+            await sock.sendMessage(m.from, { text: 'destiny xmd needs to be an admin to manage the antilink feature.' }, { quoted: m });
             return;
         }
 
