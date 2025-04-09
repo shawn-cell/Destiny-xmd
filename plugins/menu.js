@@ -94,23 +94,23 @@ const menu = async (m, Matrix) => {
 ┃◈┃• 7. Main Menu
 ┃◈┃• 8. Owner Menu 
 ┃◈┃• 9. Stalk Menu     
-┃◈┃• update
+┃◈┃• 10. Logomenu
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > *Reply with the number (1-9)*`;
 
     // Function to get menu image
     const getMenuImage = async () => {
-      if (config.MENU_IMAGE && config.MENU_IMAGE.trim() !== '') {
+      if (config.MENU_IMAGE && config.MENU_IMAGE.trim() !== 'https://files.catbox.moe/a25ykr.jpg') {
         try {
           const response = await axios.get(config.MENU_IMAGE, { responseType: 'arraybuffer' });
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('./media/khan.jpg');
+          return fs.readFileSync('https://files.catbox.moe/a25ykr.jpg');
         }
       } else {
-        return fs.readFileSync('./media/khan.jpg');
+        return fs.readFileSync('https://files.catbox.moe/a25ykr.jpg');
       }
     };
 
@@ -125,7 +125,7 @@ const menu = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363398040175935@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterName: "MARKDEVS",
           serverMessageId: 143
         }
       }
