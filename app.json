@@ -1,5 +1,5 @@
 {
-  "name": "Destiny xmd",
+  "name": "Shawn xmd",
   "description": "🚀 Destiny xmdWhatsApp MultiDevice Bot – Your ultimate AI-powered assistant, built in Node.js to revolutionize WhatsApp automation! From smart replies to advanced moderation, experience seamless interaction like never before. 💡✨",
   "logo": "https://files.catbox.moe/7jt69h.jpg",
   "keywords": ["Devspacetechnologies", "whatsapp-bot", "whatsapp-md-bot"],
@@ -8,7 +8,7 @@
   "env": { 
   
     "SESSION_ID": {
-      "description": "Ensure your session Id starts with the word Destiny",
+      "description": "Destiny CLOUD-AI~VVoTRR4Q#_4X-sERLt5xoOkDr3rarPGhPMd2VJ-P9PHwpH7sqQg4",
       "required": true,
       "value": ""
     },
